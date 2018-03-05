@@ -23,6 +23,6 @@ public class Area {
     private Date creatTime;
 
     //更新时间
-    private Date lastEditTime;
+    private Date updateTime;
 
 }
