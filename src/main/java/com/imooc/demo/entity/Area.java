@@ -20,7 +20,7 @@ public class Area {
     private Integer priority;
 
     //创建时间
-    private Date creatTime;
+    private Date createTime;
 
     //更新时间
     private Date updateTime;

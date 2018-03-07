@@ -30,7 +30,7 @@ public class AreaServiceImpl implements AreaService {
     @Transactional
     public boolean addArea(Area area) {
         if(area.getAreaName() != null && !"".equals(area.getAreaName())){
-            area.setCreatTime(new Date());
+            area.setCreateTime(new Date());
             area.setUpdateTime(new Date());
             try {
                 int effectNum = areaDao.insertArea(area);
