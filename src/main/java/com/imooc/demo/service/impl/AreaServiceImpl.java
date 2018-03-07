@@ -17,7 +17,6 @@ public class AreaServiceImpl implements AreaService {
     private AreaDao areaDao;
     @Override
     public Area getAreaByAreaId(Integer areaId) {
-        int a = areaId/0;
         return areaDao.queryAreaById(areaId);
     }
 
