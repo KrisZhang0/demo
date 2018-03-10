@@ -22,7 +22,7 @@
     <insert id="insertArea" useGeneratedKeys="true" keyProperty="areaId" keyColumn="area_id"
             parameterType="com.imooc.demo.entity.Area">
         INSERT INTO tb_area (area_name, priority, create_time, update_time)
-        VALUES (#{areaName}, #{priority}, #{creatTime} ,#{updateTime})
+        VALUES (#{areaName}, #{priority}, #{createTime} ,#{updateTime})
     </insert>
     
     <update id="updateArea" parameterType="com.imooc.demo.entity.Area">
